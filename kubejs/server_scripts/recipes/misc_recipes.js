@@ -714,4 +714,22 @@ ServerEvents.recipes((event) => {
 		"kubejs:mimic_dust", //
 		"minecraft:glowstone_dust",
 	]);
+
+	// Add salt tag to full salt buckets
+	event.shapeless(Item.of("spelunkery:salt_bucket", "{salt:0}"), [
+		"minecraft:bucket",
+		"8x spelunkery:salt"
+	])
+
+	event.smelting(
+		Item.of("spelunkery:salt_bucket", "{salt:0}"),
+		"minecraft:water_bucket"
+	)
+
+	// Let salt buckets turn into salt
+	for (let i = 0; i <= 7; i++) {
+		event.shapeless(Item.of("spelunkery:salt", 8 - i), [
+			Item.of("spelunkery:salt_bucket", `{salt:${i}}`).strongNBT()
+		])
+	}
 });

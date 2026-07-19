@@ -108,6 +108,7 @@ ServerEvents.recipes((event) => {
 		{ id: "alexsmobs:hemolymph_blaster" },
 		{ id: "create:mixing/whippedcream_bucket_create" },
 		{ id: "create:mixing/whippedcream_bottle_create" },
+		{ output: "spelunkery:salt_bucket"}
 	];
 
 	for (const remove of toRemove) {

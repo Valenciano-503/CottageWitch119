@@ -30,7 +30,7 @@
 			corner: false
 			dev: false
 			height: 2.5d
-			hover: ["support the modpack and play with friends!"]
+			hover: ["¡Apoya el paquete de mods y juega con amigos!"]
 			image: "cottagewitch:textures/quest_ui/aklizbanner.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -66,7 +66,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["Click here to join our Discord!"]
+			hover: ["¡Da clic para unirte a nuestro server de Discord!"]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			order: 99
 			rotation: 0.0d
@@ -79,7 +79,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["Click here to visit our Github Wiki!"]
+			hover: ["¡Da clic aquí para visitar nuestra Github Wiki!"]
 			image: "supplementaries:textures/gui/book/icon/github.png"
 			order: 99
 			rotation: 0.0d
@@ -93,13 +93,13 @@
 	quests: [
 		{
 			description: [
-				"This modpack has a number of building and decoration mods which are all worth looking into. &dMost of them do not have associated quests&r."
+				"Este paquete de mods contiene una gran cantidad de nuevas opciones para construir y decorar que vale la pena mirar. &dLa mayoría de ellas no están asociadas a misiones&r."
 				""
-				"So how are you supposed to know they're there? Why, &lJEI&r of course. &6Opening your inventory&r will show you a wall of items to your right. You can search through these items at the bottom right. Type &d@&r and the name of a mod to search for only items from that mod."
+				"Entonces, ¿cómo se supone que sepas que están ahí? Por qué, &lJEI&r claro está. &6Abriendo tu inventario&r aparecerá un muro de objetos a tu derecha. Puedes buscar a través de estos objetos abajo a la derecha. Escribe &d@&r y escribe el nombre de un mod para buscar únicamente los objetos de ese mod."
 				""
-				"For example, you can &asearch \"@another\"&r to view everything from Another Furniture. &6Left click the item&r to view its crafting recipe. &6Right click it&r to view what recipes it's used in."
+				"Por ejemplo, puedes &abuscar \"@another\"&r para ver todo lo relacionado con el mod Another Furniture. &6Da clic izquierdo al objeto&r para ver su receta de creación. &6Da clic derecho&r para ver en qué recetas es empleado."
 				""
-				"This will let you view how to make anything in the game!"
+				"¡Esto te permitirá conocer cómo crear cualquier cosa en el juego!"
 			]
 			id: "6C22B7717BABD4EC"
 			rewards: [{
@@ -109,10 +109,10 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Take a little look-see"
+			subtitle: "Echa un pequeño vistazo"
 			tasks: [{
 				id: "094E438FC988764A"
-				title: "Get to know the mods"
+				title: "Conoce los mods"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -120,19 +120,19 @@
 		}
 		{
 			description: [
-				"This modpack adds a lot of new sounds. So to help you filter the ones you don't like, it also includes &aSuper Sound Muffler&r."
+				"Este paquete de mods añade muchos sonidos nuevos. Por lo cual, para ayudarte a filtrar aquellos que no desees escuchar, se incluye el &aSuper Silenciador de Sonidos&r."
 				""
-				"&6Press F6 to open the menu&r. From here, you can click &aRecent&r to see what you've recently heard. You can play the sound to confirm it's the one you don't like, and then &6mute it!&r"
+				"&6Presiona F6 para abrir el menú&r. Desde aquí, da clic en &aReciente&r para ver los que has escuchado recientemente.Puedes reproducir el sonido para confirmar que se trata de este, y luego &6¡siléncialo!&r"
 			]
 			id: "7803AE9CE5929FC1"
 			shape: "gear"
-			subtitle: "Selective hearing. Literally."
+			subtitle: "Escucha selectiva. Literalmente."
 			tasks: [{
 				id: "18B69346662B918E"
-				title: "Extreme Sound Muffler"
+				title: "Silenciador de Sonido Extremo"
 				type: "checkmark"
 			}]
-			title: "Extreme Sound Muffler"
+			title: "Silenciador de Sonido Extremo"
 			x: -4.5d
 			y: 0.5d
 		}
@@ -158,13 +158,13 @@
 				xp_levels: 5
 			}]
 			shape: "gear"
-			subtitle: "When you're away, your base will play"
+			subtitle: "Cuando estás lejos, tu base sigue activa"
 			tasks: [{
 				id: "581760A3119D8A40"
-				title: "Claim and Load Chunks"
+				title: "Reclama y Carga Chunks"
 				type: "checkmark"
 			}]
-			title: "Claiming Your Space \\& Chunk Loading"
+			title: "Reclama tu Espacio \\& Carga de Chunks"
 			x: -3.0d
 			y: 0.5d
 		}
@@ -224,7 +224,7 @@
 			shape: "gear"
 			tasks: [{
 				id: "71213A4C883E0709"
-				title: "Pin the Quest Categories"
+				title: "Fijar las Categorías de Misiones"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -233,9 +233,9 @@
 		{
 			dependencies: ["45AAAB127DE386A4"]
 			description: [
-				"Did you know you can &apin quests&r so they &ashow on your main screen&r? You can!"
+				"¿Sabías que puedes &afijar misiones&r para que se&amuestren en tu pantalla principal&r? ¡Sí puedes!"
 				""
-				"Just &dbe warned that this overlaps your pinned Notes&r."
+				"Solo &dten en cuenta que esto traslapará tus notas fijas&r."
 				""
 				"Also, perhaps I should mention that you can &apin notes&r to your screen as well! &6Press N to access your Notes menu&r."
 			]
@@ -248,10 +248,10 @@
 			shape: "gear"
 			tasks: [{
 				id: "581B4431894BEC6F"
-				title: "Pin a Quest or Note"
+				title: "Fija una Misión o una Nota"
 				type: "checkmark"
 			}]
-			title: "Pinning Other Things"
+			title: "Fijar Otras Cosas"
 			x: 3.0d
 			y: 0.5d
 		}
@@ -317,10 +317,10 @@
 			shape: "gear"
 			tasks: [{
 				id: "4D969F11A701F8AA"
-				title: "I know how to find things now"
+				title: "Ahora sé cómo encontrar las cosas"
 				type: "checkmark"
 			}]
-			title: "Finding Items In Containers"
+			title: "Encontrar Objetos en Contenedores"
 			x: 4.0d
 			y: 0.5d
 		}
@@ -351,7 +351,7 @@
 			shape: "gear"
 			tasks: [{
 				id: "2E65F74FAED6B7CD"
-				title: "Resource Pack Application"
+				title: "Aplicación de Paquetes de Recursos"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -379,5 +379,5 @@
 			y: 0.5d
 		}
 	]
-	title: "Welcome"
+	title: "Te damos la bienvenida"
 }

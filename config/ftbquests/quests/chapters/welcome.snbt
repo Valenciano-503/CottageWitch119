@@ -138,17 +138,17 @@
 		}
 		{
 			description: [
-				"If you want your base to stay active even when you're not there, you want &achunk loading&r. This will also help if you &ahave a vanilla-style mob farm&r."
+				"Si deseas que tu base se mantenga activa incluso sin no estás ahí, buscas un &a cargador de chunks&r. Este te ayudará aun incluso si &atienes una granja de mobs estilo vanilla&r."
 				""
-				"Open your inventory and look at the top left of your screen. The &amap icon&r will lead you to the &aFTB Chunks&r screen."
+				"Abre tu inventario y mira la esquina superior izquierda de tu pantalla. El &aícono de mapa&r te llevará al menú del mod &aFTB Chunks&r."
 				""
 				"{image:cottagewitch:textures/quest_images/ftbmenu.png width:200 height:150 align:1}"
 				""
-				"Choose &bClaimed Chunks&r and &6left click&r on a chunk to claim it for your own. To unclaim, &bright click&r it. To &aload the chunk when you're not in it&r, &6shift and left click the claimed chunk&r. You can unload it by holding &6shift and right clicking&r."
+				"Elige &bChunks Reclamados&r y da &6clic izquierdo&r en un chunk para reclamarlo como tu propiedad. Para anaular la reclamación, da &bclic derecho&r. Para &acargar el chunk cuando no estás en él&r, presiona &6shift y clic izquierdo al chunk reclamado&r. Puede anular la carga de chunks al presionar &6shift y clic derecho&r."
 				""
 				"{image:cottagewitch:textures/quest_images/claimchunks.png width:200 height:120 align:1}"
 				""
-				"When a chunk is claimed, &dother server members cannot break or interact with blocks in it&r. In order to grant someone access to your chunks, you need to &aadd them or their Team as an Ally&r."
+				"Cuando un chunk ya fue reclamado, &d otros miembros del servidor no pueden romper o interactuar con bloques de este&r. Para garantizar el acceso a esos chunks, necesitarás &aagregarlos en tu equipo como Aliados&r."
 			]
 			id: "33176499C3C54D9C"
 			min_width: 350
@@ -171,9 +171,9 @@
 		{
 			dependencies: ["33176499C3C54D9C"]
 			description: [
-				"FTB Teams allows you to add other players to your party, which can allow you to &ashare quest progress&r if desired, and also &aallow access to your claimed chunks&r."
+				"FTB Teams te permite agregar otros jugadores a tu partida, a los cuales puedes &acompartir el progeso de misiones&r si lo deseas, y también &apermitir el acceso a tus chunks reclamados&r."
 				""
-				"The Teams screen is accessible in the &ctop left of your inventory&r. From there, you can &acreate a party&r. You can invite others if you want to share quest progress, otherwise you can simply add other players as allies via the &bManage Allies&r screen."
+				"Puedes acceder al menú Teams en la &cesquina superior izquierda de tu inventario&r. Desde ahí, puedes &acrear un grupo&r. Puedes invitar a otros si deseas compartir el progreso de misiones, de lo contrario, puedes agregar a otros jugadores simplemente como aliados a través del menú &bAdministrar aliados&r."
 				""
 				"{image:cottagewitch:textures/quest_images/ftbmenu.png width:200 height:150 align:1}"
 				""
@@ -181,11 +181,11 @@
 				""
 				"{image:cottagewitch:textures/quest_images/manageallies.png width:200 height:150 align:1}"
 				""
-				"Note that &din order for Deployers and such to work in claimed chunks&r, you have to &6allow Fake Player access&r via FTB Teams. Press E and click on \"My Team\" in the top left. Then click the gear in the top right, and you'll see this menu:"
+				"Ten en cuenta que &dpara que los Desplegadores (Deployers) y similares funcionen en chunks reclamados&r, tienes que &otorgar acceso a los Fake Players&r a través de FTB Teams. Presiona E y da clic en \"My Team\" en la parte superior izquierda. Luego da clic en en engranaje de la parte superior derecha, y encontrarás este menú:"
 				""
 				"{image:cottagewitch:textures/quest_images/fakeplayers.png width:871 height:342 align:1 fit:true}"
 				""
-				"Set \"Allow All Fake Players\" to true."
+				"Define \"Allow All Fake Players\" a true."
 			]
 			id: "09A30D11730DA3E8"
 			rewards: [{
@@ -204,15 +204,15 @@
 		}
 		{
 			description: [
-				"You might be wondering where all the quests are, when your screen looks like this:"
+				"Te preguntarás dónde están todas las misiones cuando tu pantalla luce así:"
 				""
 				"{image:cottagewitch:textures/quest_images/questmenu.png width:300 height:200 align:1}"
 				""
-				"See that &aarrow on the left bar&r? &6Hovering over that&r will show you all the categories."
+				"¿Ves esa &aflecha en la barra izquierda&r? &6Pasa el cursor por encima&r y te mostrará todas las categorías."
 				""
 				"{image:cottagewitch:textures/quest_images/questmenu2.png width:300 height:200 align:1}"
 				""
-				"Be sure to &6click the Pin in the upper right&r to keep this sidebar open permanently!"
+				"Asegúrate de dar &6clic en Fijar en la superior derecha&r para mantener la barra lateral abierta permanentemente."
 			]
 			id: "45AAAB127DE386A4"
 			min_width: 350
@@ -359,9 +359,9 @@
 		}
 		{
 			description: [
-				"Have you found that your &lSophisticated Storage&r or &lChipped&r textures seem messed up?"
+				"¿Has encontrado que las texturas de los mods &lSophisticated Storage&r o &lChipped&r parecen dañadas?"
 				""
-				"This is a known bug which is currently unfixed by the mod developers. It occurs most often when &aresourcepacks are changed with the game running&r. It can be fixed by &6restarting Minecraft&r."
+				"Este es un error conocido que sigue sin ser arreglado por los desarrolladores del mod. Pincipalmente ocurre cuando &ase cambian los paquetes de recursos con la partida abierta&r. Se puede arreglar al &6reiniciar Minecraft&r."
 			]
 			id: "32E10222527B1BB1"
 			rewards: [{
@@ -372,7 +372,7 @@
 			shape: "gear"
 			tasks: [{
 				id: "2F817755D430EEC8"
-				title: "Screwy Textures?"
+				title: "¿Texturas extrañas?"
 				type: "checkmark"
 			}]
 			x: 5.0d
